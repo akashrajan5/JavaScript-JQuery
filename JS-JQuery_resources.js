@@ -11,3 +11,14 @@ $(".classname || #id-name || element.classname || element['attribute'] || elemen
 
 //its better to use .value or .val() to get or set input element values.
 //use attr() to change data attribute values or use .data() if possible.
+
+//Show hide elements
+element.style.display = "block";
+element.style.display = "none";
+$('.classname or #id-name').show()
+$('.classname or #id-name').hide()
+
+//change attribute values
+element.hasAttribute("attribute name"); // check if an attribute is present
+element.setAttribute("href", "value"); //set an attribute and value
+$('.classname or #id-name').attr("name", "value")
