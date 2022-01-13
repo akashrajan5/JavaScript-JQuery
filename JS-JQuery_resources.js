@@ -22,3 +22,6 @@ $('.classname or #id-name').hide()
 element.hasAttribute("attribute name"); // check if an attribute is present
 element.setAttribute("href", "value"); //set an attribute and value
 $('.classname or #id-name').attr("name", "value")
+
+//check if checkbox or radio button is checked
+$("element").is(':checked')
