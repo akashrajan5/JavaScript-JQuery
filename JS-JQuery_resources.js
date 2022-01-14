@@ -1,6 +1,9 @@
 //Selectors
 document.getElementById("id-name");
 document.getElementsByClassName("classname");
+
+$('element[name="value"]') //Select element by name attribute
+
 document.querySelector(".classname || #id-name || element.classname || element['attribute'] || element,element");
 document.querySelectorAll(".classname || #id-name || element.classname || element['attribute'] || element,element"); //Select all the elements with selector
 $(".classname || #id-name || element.classname || element['attribute'] || element,element")
